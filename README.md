@@ -16,3 +16,11 @@ Pourquoi configurer SSH:
 	ssh-keygen
 </code>
 </pre>
+
+## Pour l'Agent SSH
+
+<pre>
+<code>
+	eval ssh-agent
+</code>
+</pre>
