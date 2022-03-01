@@ -32,3 +32,15 @@ Pourquoi configurer SSH:
 	ssh-add lienClePrive
 </code>
 </pre>
+
+## En cas de Problème
+
+Si vous rencontrez ce problème:
+<code>**Could not open a connection to your authentication agent.**</code>
+
+* D'abord vous vous rendez dans le dossier bin avec la commande suivante
+<pre>
+<code>
+	ssh-agent /bin/sh
+</code>
+</pre>
