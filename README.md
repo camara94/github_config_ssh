@@ -24,3 +24,11 @@ Pourquoi configurer SSH:
 	eval ssh-agent
 </code>
 </pre>
+
+## Utiliser Une Clé Spécifique 
+
+<pre>
+<code>
+	ssh-add lienClePrive
+</code>
+</pre>
