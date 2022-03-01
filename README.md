@@ -38,9 +38,21 @@ Pourquoi configurer SSH:
 Si vous rencontrez ce problème:
 <code>**Could not open a connection to your authentication agent.**</code>
 
-* D'abord vous vous rendez dans le dossier bin avec la commande suivante
+* D'abord vous vous rendez dans le dossier bin et executer la commande suivante
+
 <pre>
 <code>
 	ssh-agent /bin/sh
 </code>
 </pre>
+
+* Enfin vous executez cette autre commande pour terminer
+
+<pre>
+<code>
+	ssh-add $(cat ~/root/.ssh/id_rsa)
+</code>
+</pre>
+
+* Ou bien votre clé privé se trouve dans un autre dossier:
+  vous remplacez celui-ci <code>~/root/.ssh/id_rsa</code>  par lien de votre clé privé
